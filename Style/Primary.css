@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800");
+body {
+  background-color: hsl(218deg, 23%, 16%);
+  font-family: Manrope;
+}
+
+.container {
+  border: 3px solid hsl(217deg, 19%, 38%);
+  border-radius: 2px;
+  background-color: hsl(217deg, 19%, 38%);
+}
+.container .advice {
+  color: white;
+}
+.container .dice {
+  background-color: hsl(150deg, 100%, 66%);
+  border: 1px solid hsl(150deg, 100%, 66%);
+  border-radius: 100%;
+}/*# sourceMappingURL=Primary.css.map */
