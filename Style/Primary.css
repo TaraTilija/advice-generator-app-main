@@ -2,11 +2,15 @@
 body {
   font-family: Manrope;
   background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9rem;
 }
 
 .container {
-  border: 3px solid hsl(217deg, 19%, 38%);
-  border-radius: 1rem;;
+  border: 1px solid hsl(217deg, 19%, 38%);
+  border-radius: 1rem;
   background-color: hsl(217deg, 19%, 38%);
   padding: 1.2rem;
   align-items: center;
@@ -14,8 +18,10 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* height: calc(100vh - 0.1px); */
+  max-width: 22.5rem;
+  position: relative;
 }
+
 .container .advice {
   color: white;
   padding-bottom: 1rem;
@@ -28,8 +34,24 @@ body {
 
 }
 
+.divider img{
+  max-width: 100%;
+}
+
 .container .dice{
   font-size: 28px;
   line-height: 1.5;
+}
 
+.container button{
+  background-color:hsl(150, 100%, 66%);
+  border:none;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.container button:hover{
+background-color:hsl(150, 53%, 44%);
 }
