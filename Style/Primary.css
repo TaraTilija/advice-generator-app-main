@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-  border: 1px solid hsl(217deg, 19%, 38%);
+  border: 1px solid hsl(217, 19%, 24%);
   border-radius: 1rem;
-  background-color: hsl(217deg, 19%, 38%);
-  padding: 1.2rem;
+  background-color:  hsl(217, 19%, 24%);
+  padding: 2.2rem 2.2rem 3rem 2.2rem;
   align-items: center;
   text-align: center;
   display: flex;
@@ -35,7 +35,8 @@ body {
 }
 
 .divider img{
-  max-width: 100%;
+  max-width: 94%;
+  padding-top: 1rem;
 }
 
 .container .dice{
@@ -43,15 +44,22 @@ body {
   line-height: 1.5;
 }
 
+.dice img{
+  max-width: 81%;
+}
+
 .container button{
   background-color:hsl(150, 100%, 66%);
   border:none;
-  padding: 1rem;
+  padding: .8rem;
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
+  position: absolute;
+  left: 44%;
+  top: 89%;
 }
 
 .container button:hover{
-background-color:hsl(150, 53%, 44%);
+background-color:hsl(150, 90%, 50%);
 }
